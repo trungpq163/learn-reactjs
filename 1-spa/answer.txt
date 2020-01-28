@@ -1,0 +1,2 @@
+- Js famework SPA:
+    + ReactJS, Vue, Angular, Ember;
