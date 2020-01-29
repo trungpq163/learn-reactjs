@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-import './TodoItem.css'
+import './TodoItem.css';
+import classNames from 'classnames';
 
 class TodoItem extends Component {
     render() {
         const {item} = this.props;
         
         let className = 'TodoItem';
-
+        let complete = 'TodoItem-complete';
         if (item.isComplete) {
-            className += ' TodoItem-complete';
+            className = classNames(className, complete);
         }
 
         return (
