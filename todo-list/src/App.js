@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import TodoItem from './components/TodoItem';
 
@@ -8,7 +7,9 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <TodoItem/>
+                    <TodoItem title="Mua bim bim"/>
+                    <TodoItem title="Đi đá bóng"/>
+                    <TodoItem title="Đi đổ xăng"/>
                 </header>
             </div>
         );

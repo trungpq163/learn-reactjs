@@ -3,7 +3,7 @@ class TodoItem extends Component {
     render() {
         return (
             <div className="App">
-                <p>Đi chợ</p>
+                <p>{ this.props.title }</p>
             </div>
         );
     }
