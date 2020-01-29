@@ -1,10 +1,6 @@
-const Title = React.createElement('div', {
-    className: 'title'
-}, 'Hello World!');
+const Title = <div className='title'>React Tutorials </div>;
 
-const Image = React.createElement('img', {
-    src: 'http://lorempixel.com/400/200'    
-});
+const Image = <img src='http://lorempixel.com/400/200'></img>;
 
 const App = React.createElement('div', null, Title, Image);
 const root = document.getElementById('root');
