@@ -6,27 +6,22 @@ class App extends Component {
     constructor() {
         super();
         this.todoItems = [
-            // { title: 'Mua bim bim', isComplete: true },
-            // { title: 'Đi đá bóng' },
-            // { title: 'Đi đổ xăng' }
+            { title: 'Mua bim bim', isComplete: true },
+            { title: 'Đi đá bóng' },
+            { title: 'Đi đổ xăng' }
         ]
     }
     render() {
-        if (this.todoItems.length > 0) {
-            return (
-                <div className="App">
-                    {
-                        this.todoItems.map((item, index) => <TodoItem key={index} item={item} />)
-                    }
-                </div>
-            );
-        } else {
-            return (
-                <div className="App">
-                    Nothing here..
-                </div>
-            )
-        }
+        return (
+            <div className="App">
+                {
+                    this.todoItems.length > 0 && this.todoItems.map((item, index) => <TodoItem key={index} item={item} />)
+                }
+                {
+                    this.todoItems.length === 0 && "Nothing here.."
+                }
+            </div>
+        );
     }
 }
 
