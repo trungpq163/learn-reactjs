@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "traffic-light",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,8 +31,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "ws": "3.3.2"
   }
 }
