@@ -20,7 +20,10 @@ class App extends Component {
         return (
             <div className="App">
                 {
-                    this.todoItems.length > 0 && this.todoItems.map((item, index) => <TodoItem key={index} item={item} onClick={this.onItemClicked}/>)
+                    this.todoItems.length > 0 && this.todoItems.map((item, index) => 
+                    <TodoItem key={index} 
+                    item={item} 
+                    onClick={this.onItemClicked}/>)
                 }
                 {
                     this.todoItems.length === 0 && "Nothing here.."
