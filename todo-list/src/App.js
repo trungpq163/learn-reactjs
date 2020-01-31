@@ -32,20 +32,6 @@ class App extends Component {
     }
 
     render() {
-        // const {todoItems} = this.state;
-        // if (todoItems.length) {
-        //     return (<div className="App">
-        //         {
-        //             todoItems.length && todoItems.map((item, index) => {
-        //                 <TodoItem key={index} item={item} onClick={this.onItemClicked(item)} />
-        //             })
-        //         }
-        //     </div>);
-        // } else {
-        //     return (
-        //       <div className="App">Nothing here..</div>  
-        //     );
-        // }
         return (
             <div className="App">
                 {
