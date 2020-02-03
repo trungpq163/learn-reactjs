@@ -38,7 +38,7 @@ class App extends Component {
                 {
                     this.state.todoItems.length > 0 && this.state.todoItems.map((item, index) => 
                     <TodoItem key={index} 
-                    item={item} 
+                    item={item}
                     onClick={this.onItemClicked(item)}/>)
                 }
                 {
