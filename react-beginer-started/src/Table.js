@@ -26,11 +26,11 @@ const TableBody = props => {
 
 export default class Table extends Component {
   render() {
-    const { chacracterData } = this.props;
+    const { characterData } = this.props;
     return (
       <table>
         <TableHeader />
-        <TableBody chacracterData={chacracterData} />
+        <TableBody characterData={characterData} />
       </table>
     );
   }
