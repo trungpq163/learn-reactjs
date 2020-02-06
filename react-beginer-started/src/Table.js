@@ -17,6 +17,8 @@ const TableBody = props => {
       <tr key={index}>
         <td>{row.name}</td>
         <td>{row.job}</td>
+        <td>
+        </td>
       </tr>
     )
   })
